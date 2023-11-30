@@ -10,6 +10,7 @@
  */
 
 // @ts-check
+import type * as PluginContentDocs from '@docusaurus/plugin-content-docs';
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
@@ -28,6 +29,6 @@ const sidebars = {
     },
   ],
    */
-};
+} as PluginContentDocs.SidebarsConfig;
 
 export default sidebars;
